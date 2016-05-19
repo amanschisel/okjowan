@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
+  _|_|    _|    _|        _|
+_|    _|  _|  _|          _|    _|_|    _|      _|      _|    _|_|_|  _|_|_|
+_|    _|  _|_|            _|  _|    _|  _|      _|      _|  _|    _|  _|    _|
+_|    _|  _|  _|    _|    _|  _|    _|    _|  _|  _|  _|    _|    _|  _|    _|
+  _|_|    _|    _|    _|_|      _|_|        _|      _|        _|_|_|  _|    _|
+
+-->
 <head>
     <!--Meta (my daughter's name) -->
     <title>OKJowan...</title>
@@ -17,7 +25,7 @@
 <body>
     <!-- Header -->
     <header>
-        <h1>Hello <s>World&nbsp!</s> Jowan</h1>
+        <h1>Hello <s>World!</s> Jowan</h1>
     </header>
     <!-- end Header -->
 
@@ -25,21 +33,40 @@
     <section id="questions">
 
         <!-- Q1 -->
-        <section id="question-1" class="questions">
-            <h4 class="q-title"><b>1.</b> What would you call the edges of a Cornish pasty ?</h4>
-            <h4><b>A.</b></h4>
-            <p class="q-answr">
-                There is no <em>real</em> name for it.<br>
-                It is <b>'crimped'</b>, so you could call it a 'crimp', but that's not really it's name.<br>
-                It used to be filled with jam, and you would eat it at the end.<br>
-                Also, the minners used to leave it down the mines for the 'tinners' - the ghosts
-                  of the dead miners.
-            </p>
-        </section>
+        <div id="question-1" class="questions">
+            <div class="form-group">
+                <label for="q1a"><b>1.</b> What would you call the edges of a Cornish pasty ?</label>
+                <textarea class="form-control" rows="6" id="q1a">
+There is no real name for it.
+It is 'crimped', so you could call it a 'crimp', but that's not really it's name.
+It used to be filled with jam, and you would eat it at the end, like desert.
+Also, the miners used to leave it down the mines for the 'tinners' - the ghosts of the dead miners.
+                </textarea>
+            </div>
+        </div>
         <!-- end Q1-->
+
+        <!-- Q2 -->
+        <div id="question-2" class="questions">
+            <div class="form-group">
+                <label for="q2a"><b>2.</b> ?</label>
+                <textarea class="form-control" rows="6" id="q2a">
+                </textarea>
+            </div>
+        </div>
+        <!-- end Q2-->
 
     </section>
     <!-- end Question -->
+
+    <!-- Pager -->
+    <section id="pager">
+        <div id="pager-wrapper">
+            <button class="btn btn-primary" id="previous">Previous</button>
+            <button class="btn btn-primary" id="next">Next</button>
+        </div>
+    </section>
+    <!-- end Pager -->
 
     <!-- Footer -->
     <footer>
